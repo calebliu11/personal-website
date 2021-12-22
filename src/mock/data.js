@@ -57,8 +57,8 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
+      name: 'school',
+      url: 'mailto:calebliu@wustl.edu',
     },
     {
       id: nanoid(),
