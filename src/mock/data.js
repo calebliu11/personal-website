@@ -40,8 +40,79 @@ export const projectsData = [
     info: "Designed a fully-playable virtual poker game in Java, where a user can play against the computer in one-on-one no-limit Texas Hold'em on an interactive GUI.",
     info2:
       'The game utilizes graphics created with Swing, has full-fledged betting functionality, employs accurate probabilities, and uses intelligent rule-based decision-making for the computer.',
-    url: 'https://github.com/calebliu11/project-virtualpoker/blob/master/README.md',
-    repo: 'https://github.com/calebliu11/project-virtualpoker', // if no repo, the button will not show up
+    url: 'https://github.com/calebliu11/virtual-poker/blob/main/README.md',
+    repo: 'https://github.com/calebliu11/virtual-poker', // if no repo, the button will not show up
+  },
+];
+
+export const experiencesData = [
+  {
+    id: nanoid(),
+    img: 'amazon.jpeg',
+    title: 'Amazon',
+    url: 'https://www.amazon.jobs/en/job_categories/software-development',
+    info: 'Wrote Python scripts to generate new and more robust confidence rules for Alexa Shopping.',
+    info2:
+      'Added logic in Java in the intent classification service to process and determine confidence for non-shoppable utterances.',
+    info3:
+      'Designed and wired a new remote step to render a soft-landing response to customers who ask Alexa to buy non-shoppable items, improving customer satisfaction metrics.',
+  },
+
+  {
+    id: nanoid(),
+    img: 'mirror.png',
+    title: 'Stream Based Supercomputing Lab',
+    url: 'https://sbs.wustl.edu/pubs/acmb18.pdf',
+    info: 'Modified library routine in C++ to increase efficiency, reduce memory usage, and allow 100% more Arduinos to be used in parallel. ',
+    info2:
+      'Built 2x2 Arduino/mirror structure to model effective movement patterns and test libraries.',
+    info3: 'Calculated effect of increased natural light on working efficiency.',
+  },
+];
+
+export const coursesData = [
+  {
+    id: nanoid(),
+    title: 'Fall 2019',
+    info: 'CSE 240: Logic and Discrete Math',
+    info2: 'Math 233: Calculus III',
+  },
+
+  {
+    id: nanoid(),
+    title: 'Spring 2020',
+    info: 'CSE 132: Introduction to Computer Engineering',
+    info2: 'CSE 237S: Programming Tools and Techniques',
+    info3: 'Math 309: Matrix Algebra',
+  },
+
+  {
+    id: nanoid(),
+    title: 'Fall 2020',
+    info: 'CSE 204: Web Development',
+    info2: 'CSE 247: Data Structures and Algorithms',
+  },
+
+  {
+    id: nanoid(),
+    title: 'Spring 2021',
+    info: 'CSE 217: Introduction to Data Science',
+    info2: 'CSE 332S: Object-Oriented Software Development Laboratory',
+    info3: 'ESE 326: Probability and Statistics for Engineering',
+  },
+
+  {
+    id: nanoid(),
+    title: 'Fall 2021',
+    info: 'CSE 330S: Rapid Prototype Development and Creative Programming',
+    info2: 'CSE 412A: Introduction to Artificial Intelligence',
+  },
+
+  {
+    id: nanoid(),
+    title: 'Spring 2022',
+    info: 'CSE 347: Analysis of Algorithms',
+    info2: 'CSE 361S: Introduction to Systems Software',
   },
 ];
 
