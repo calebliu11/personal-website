@@ -68,6 +68,16 @@ export const experiencesData = [
       'Built 2x2 Arduino/mirror structure to model effective movement patterns and test libraries.',
     info3: 'Calculated effect of increased natural light on working efficiency.',
   },
+
+  {
+    id: nanoid(),
+    img: 'cse.jpeg',
+    title: 'CSE 240 Teaching Assistant',
+    url: 'https://cse.wustl.edu/',
+    info: 'Grade assignments and lead office hour sessions weekly for the Logic and Discrete Math course.',
+    info2:
+      'Reinforce learning objectives in discrete structures, proof techniques, and computational models',
+  },
 ];
 
 export const coursesData = [
